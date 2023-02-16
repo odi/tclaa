@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://odi.github.io/tclaa/'
 languageCode = 'de'
 title = 'Laaer Tennisclub'
 theme = "hugo-universal-theme"
