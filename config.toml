@@ -16,6 +16,7 @@ defaultContentLanguage = "de"
 		"""
 	style = "orange"
 	date_format = "01 Jänner 2006"
+	mainSections = ["posts"]
 
 [params.footer.recent_posts]
 	enable = true
