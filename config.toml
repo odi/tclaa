@@ -3,10 +3,10 @@ languageCode = 'de'
 title = 'Laaer Tennisclub'
 theme = "hugo-universal-theme"
 defaultContentLanguage = "de"
-style = "red"
 
 [params]
-	disabled_logo = true
+	disabled_logo = false
+	logo = "img/logo.svg"
 	about_us = "<p>Das sind wir ...</p>"
 	contact_url = "/contact"
 	address = """
@@ -14,6 +14,8 @@ style = "red"
 		<br>Eichamtstraße
 		</p>
 		"""
+	style = "orange"
+	date_format = "01 Jänner 2006"
 
 [params.footer.recent_posts]
 	enable = true
@@ -21,11 +23,33 @@ style = "red"
 [params.carouselHomepage]
 	enable = true
 	auto_play = true
+	slide_speed = 2000
+	pagination_speed = 1000
+
+[params.features]
+	enable = true
+	cols = 2
+
+[params.widgets]
+    search = false
+    categories = false
+    tags = true
+
+summaryLength = 20
+
+[params.recent_posts]
+	enable = true
+	title = "Unsere neuesten Einträge"
+	subtitle = "Das ist ein Test"
+	hide_summary = false
 
 [params.see_more]
 	enable = true
 	icon = "far fa-file-alt"
-	title = "Do you want to see more?"
+	title = "Reservierungssystem"
+	subtitle = "Du kannst bei uns einfach online Plätze reservieren. Zusätzlich kannst du hier auch sehen ob Plätze frei sind oder gesperrt wurden."
+	link_url = "https://dunkl.ddns.net/tclaa/reservation.html"
+	link_text = "Zum Reservierungssystem"
 
 [[menu.main]]
 	name = "Home"
@@ -42,5 +66,5 @@ style = "red"
 [[menu.main]]
 	name = "News"
 	identifier = "menu.news"
-	url = "/news"
+	url = "/posts/"
 	weight = 3
