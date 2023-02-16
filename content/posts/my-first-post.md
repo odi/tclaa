@@ -1,7 +1,6 @@
 ---
 title: "Neue Homepage"
 date: 2023-02-16T09:03:31+01:00
-draft: true
 banner: "img/home-try.jpg"
 authors: ["Oliver Dunkl"]
 tags: ["homepage"]
